@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npm i && tsc",
     "start": "npx tsc && nodemon node build/app.js"
   },
   "keywords": [],
