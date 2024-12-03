@@ -14,6 +14,7 @@ const app: Application = express();
 app.use(
   cors({
     origin: [
+      "https://eco-quest-frontend-kappa.vercel.app",
       "http://localhost:3000",
       "http://localhost:5174",
     ],
